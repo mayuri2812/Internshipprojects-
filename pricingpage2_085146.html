@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing table using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+
+        .container {
+            width: 100%;
+            min_height:100vh;
+            background:#fffaee;
+        }
+        .container h2{
+             color:#1d2d3f;
+             font_size:32px;
+             padding:15x 0 20px 0;
+             text-align:left;
+             margin-left:10%;
+        }
+        .container h3{
+             margin:0% 0 2% 10%;
+             font-size:24px;
+             color:#0C356A;
+        }
+        .pricing-row {
+            display: grid;
+            width:81%;
+            margin:auto;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            grid-gap:30px;
+        }
+
+        .pricing-col {
+            transition:box-shadow .5s;
+            transition:transform;
+            background-color: #61677A;
+            border-radius: 10px;
+           
+            margin: 20px;
+            padding: 10% 10%;
+            text-align: center;
+            width: 300px;
+            
+        }
+       hr{
+
+        padding: -10% !important;
+        }
+
+        .pricing-col:hover {
+            box-shadow:0 0 20px  rgba(9, 157, 194, 0.2);
+            transform:scale(1.04);
+        }
+
+        .pricing-col p {
+            font-size: 22px;
+            
+        }
+
+        .pricing-col h3 {
+            color: whitesmoke;
+            font-size: 44px;
+            font-weight: 500;
+            margin: 15px 0 20px;
+        }
+        .pricing-col h3 span{
+            font-size: 25px;
+        }
+
+        .pricing-col ul  {
+            text-align:left;
+            margin:10px 0;
+            color:#0C356A;
+            life-style:none;
+        }
+
+        .pricing-col ul  li {
+            border-bottom: 2px solid #feffff;
+            font-size: 20px;
+            color:#ffffff;
+            padding:8px;
+            text-align:left;
+        }
+        .pricing-col button{
+            background-color:#EEE0C9;
+            border:1px  solid white;
+            border-radius:5px;
+            margin: 20px 0 0 0;
+            color:#001c38;
+            padding:10px 25px;
+            text-align:center;
+            text-decoration:none;
+            font-size: 18px;
+        }
+        .pricing-col button:hover{
+            background:#091c23;
+            color:white;
+        }
+        #best{
+             background:272829 !important;
+        }
+        p  {
+             font-size:24px !important;
+             margin-bottom: 10px;
+             margin-top: -10px;
+        }
+        #prem{
+             color:gold !important;
+             text-shadow: 1px 1px gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Your Plan</h2>
+        <h3>
+            Web Development Course:Beginner to Advance
+        </h3>
+        <div class="pricing-row">
+            <div class="pricing-col">
+                <p>Basic</p>
+                <hr>
+                <h3>$500/<span>month</span></h3>
+                <ul>
+                    <li>Live Online Classes</li>
+                    <li>Hands on Project</li>
+                    <li>Live Doubt Session</li>
+                    <li>Certificate on Completion</li>
+                </ul>
+                
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="pricing-col" id="best">
+                <p id="prem">Standard*</p>
+                <hr>
+                <h3>$1000/<span>month</span></h3>
+                <ul>
+                     <li>All Basic Features of HTML,CSS</li>
+                     <li>Static and Dynamic website</li>
+                     <li>web page guidence </li>
+                     <li>Fundamentals of webdesign</li>
+                     <li>Certificate on Completion</li>
+                 <ul>
+                
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="pricing-col">
+                <p>Premium</p>
+                <hr>
+                <h3>$1600/<span>month</span></h3>
+                <ul>
+                     <li>All standard features</li>
+                     <li>Recorded Lectures</li>
+                     <li>Placement Assistance</li>
+                     <li>Limit upto 4 users</li>
+                </ul>
+                
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
