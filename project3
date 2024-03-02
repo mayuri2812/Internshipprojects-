@@ -1,0 +1,832 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SofaHouse</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="productpage.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header class = "header">
+      <div class = "head-top">
+        <a href = "index.html" class = "brand-name">
+          Sofa
+          <span>House</span>
+        </a>
+        <div>
+          <span class = "head-icon">
+            <i class = "fas fa-search"></i>
+          </span>
+          <span class = "head-icon">
+            <i class = "fas fa-bell"></i>
+          </span>
+          <span class = "head-icon">
+            <i class = "fas fa-shopping-bag"></i>
+          </span>
+          <span class = "head-icon">
+            <i class = "fas fa-user-circle"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class = "head-body container">
+        <div class = "head-body-content">
+          <h1 class = "head-title">
+            welcome to SofaHouse furniture
+          </h1>
+          <p class = "text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam repudiandae aliquam ullam nulla sunt voluptate dolorem cumque sed corporis, debitis iste odit necessitatibus repellat!
+          </p>
+          <button type = "button" class = "btn">
+            shop now
+          </button>
+        </div>
+
+        <div class = "head-body-img">
+          <img src = "C:\Users\ruchi\Downloads\header.jpeg" alt = "header image">
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- trending product -->
+    <section class = "trend">
+      <div class = "container">
+        <div class = "title">
+          <h4>trending now</h4>
+          <h2>best selling product</h2>
+        </div>
+
+        <div class = "trend-grid">
+          <!-- item -->
+          <div class = "trend-item">
+            <img src = "C:\Users\ruchi\Downloads\pic1.jpeg" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Brown Sofa With Pillows</h4>
+              <h4>$60.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- item -->
+          <div class = "trend-item">
+            <img src = "C:\Users\ruchi\Downloads\pinnk.jpeg" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Comfortable Pink Sofa</h4>
+              <h4>$80.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- item -->
+          <div class = "trend-item">
+            <img src = "C:\Users\ruchi\Downloads\red.jpeg" alt = "best product">
+            <div class = "trend-item-content">
+              <h4>Stylish Red Chair</h4>
+              <h4>$30.00</h4>
+              <div class = "stars">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+              </div>
+              <span class = "chevron-icon">
+                <i class = "fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of trending product -->
+
+    <div class = "underline"></div>
+
+    <!-- featured product -->
+    <section class = "featured">
+      <div class = "container">
+        <!-- item -->
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "C:\Users\ruchi\Downloads\pic7.jpeg" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>red sofa with pillows</h2>
+              <p class = "item-price">$55.00</p>
+            </div>
+            <p class = "text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi consequatur veniam, veritatis necessitatibus rem voluptas pariatur doloremque id culpa, eveniet, ratione libero eos fuga.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "C:\Users\ruchi\Downloads\pic9.jpeg" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>single comfort sofa chair</h2>
+              <p class = "item-price">$42.00</p>
+            </div>
+            <p class = "text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi consequatur veniam, veritatis necessitatibus rem voluptas pariatur doloremque id culpa, eveniet, ratione libero eos fuga.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "C:\Users\ruchi\Downloads\pic10.jpeg" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>warm brown sofa</h2>
+              <p class = "item-price">$78.00</p>
+            </div>
+            <p class = "text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi consequatur veniam, veritatis necessitatibus rem voluptas pariatur doloremque id culpa, eveniet, ratione libero eos fuga.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "featured-item">
+          <div class = "featured-item-img">
+            <img src = "C:\Users\ruchi\Downloads\pic11.jpeg" alt = "feature image">
+          </div>
+          <div class = "featured-item-content">
+            <div class = "title">
+              <h4>featured product </h4>
+              <h2>wide comfortable sofa</h2>
+              <p class = "item-price">$90.55</p>
+            </div>
+            <p class = "text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi consequatur veniam, veritatis necessitatibus rem voluptas pariatur doloremque id culpa, eveniet, ratione libero eos fuga.
+            </p>
+            <div class = "featured-btns">
+              <button type = "button" class = "btn">Explore</button>
+              <button type = "button" class = "btn">Purchase</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of item -->
+      </div>
+    </section>
+    <!-- end of featured product -->
+
+    <!-- blog -->
+    <section class = "blog">
+      <div class = "container">
+        <div class = "title">
+          <h4>daily update</h4>
+          <h2>latest blog</h2>
+        </div>
+
+        <div class = "blog-grid">
+          <!-- item -->
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "C:\Users\ruchi\Downloads\pillow.jpeg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "#">creative ideas for decoration</a>
+              <div>
+                <span>january 20 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- item -->
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "C:\Users\ruchi\Downloads\work.jpeg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "#">decorate your home with the most modern furnishings.</a>
+              <div>
+                <span>january 25 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+          <!-- item -->
+          <div class = "blog-item">
+            <div class = "blog-item-img">
+              <img src = "C:\Users\ruchi\Downloads\pic5.jpeg" alt = "blog image">
+            </div>
+            <div class = "blog-item-content">
+              <a href = "#">furniture designs & contemporary art</a>
+              <div>
+                <span>january 28 | design | furniture</span>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of blog -->
+
+    <!-- newsletter -->
+    <section class = "newsletter">
+      <div class = "container">
+        <div class = "newsletter-content">
+          <div class = "title">
+            <h4>subscribe to our newsletter</h4>
+            <h2>Newsletter</h2>
+          </div>
+          
+          <form>
+            <div class = "form-group">
+              <input type = "email" class = "form-control" placeholder="Enter your email address">
+              <button type = "submit" class = "subscribe-btn">
+                subscribe
+                <i class = "fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+
+          <div class = "circle-box circle-1"></div>
+          <div class = "circle-box circle-2"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end of newsletter-->
+
+    <!-- footer -->
+    <footer class = "footer container">
+      <div class = "footer-item">
+        <h2 class = "brand-name">
+          Sofa <span>House</span>
+        </h2>
+        <p>social media accounts</p>
+        <ul class = "footer-icons">
+          <li>
+            <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href = "#"><i class = "fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href = "#"><i class = "fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href = "#"><i class = "fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href = "#"><i class = "fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>links</h3>
+        <ul>
+          <li><a href = "#">home</a></li>
+          <li><a href = "#">download</a></li>
+          <li><a href = "#">pricing</a></li>
+          <li><a href = "#">about</a></li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>products</h3>
+        <ul>
+          <li><a href = "#">chair</a></li>
+          <li><a href = "#">sofa</a></li>
+          <li><a href = "#">pillow</a></li>
+          <li><a href = "#">cushion</a></li>
+        </ul>
+      </div>
+
+      <div class = "footer-item">
+        <h3>support</h3>
+        <ul>
+          <li><a href = "#">FAQ</a></li>
+          <li><a href = "#">how it works</a></li>
+          <li><a href = "#">features</a></li>
+          <li><a href = "#">contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --blackRussian: #1f1f26;
+    --greyWhite: #f9f9f9;
+    --pacificBlue: #1ca9c9;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    padding: 5rem 1rem;
+}
+.text{
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.btn{
+    margin: 25px 0;
+    text-transform: uppercase;
+    background: var(--blackRussian);
+    color: #fff;
+    border: 1.5px solid var(--blackRussian);
+    font-size: 14px;
+    padding: 12px 26px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    color: var(--pacificBlue);
+}
+
+.header{
+    min-height: 100vh;
+    background: var(--blackRussian);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.head-top{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+.head-body{
+    flex: 1;
+    background: var(--greyWhite);
+}
+.brand-name{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.4s ease;
+}
+.brand-name span{
+    background: #fff;
+    color: var(--blackRussian);
+    padding: 5px 10px;
+    transition: background 0.4s ease;
+}
+.brand-name:hover{
+    color: var(--pacificBlue);
+}
+.brand-name:hover span{
+    background: var(--pacificBlue);
+}
+.head-icon{
+    margin-left: 30px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    font-size: 20px;
+}
+.head-icon:hover{
+    color: var(--pacificBlue);
+}
+.head-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #dedee4;
+    background-image: linear-gradient(45deg, #dedee4 0%, #f9f9f9 100%);
+}
+.head-body > div{
+    margin: 16px;
+}
+.head-body-content{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.head-body-img img{
+    width: 60%;
+    margin: 0 auto;
+}
+.head-title{
+    font-size: 42px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    padding: 10px 0;
+    font-family: 'Fira Sans', sans-serif;
+    word-spacing: 7px;
+}
+
+/* title */
+.title{
+    margin: 30px 0;
+}
+.title h4{
+    text-transform: uppercase;
+}
+.title h2{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px 0;
+}
+/*/
+
+/* trend */
+.trend-item{
+    background: var(--greyWhite);
+    margin: 40px 0;
+    padding: 30px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-in-out;
+}
+.trend-item:hover{
+    -webkit-box-shadow: 0px 9px 10px -10px rgba(208, 208, 208, 1);
+    -moz-box-shadow: 0px 9px 10px -10px rgba(208, 208, 208, 1);
+    box-shadow: 0px 9px 10px -10px rgba(208, 208, 208, 1);
+}
+.trend-item:nth-child(3) img{
+    width: 50%;
+    margin: 0 auto;
+}
+.trend-item-content{
+    padding: 16px 0;
+    line-height: 1.9;
+}
+.trend-item-content h4:first-of-type{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.8;
+}
+.trend-item-content h4:last-of-type{
+    font-weight: 600;
+    font-size: 20px;
+}
+.chevron-icon{
+    background: var(--blackRussian);
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.4s ease-in-out;
+}
+.chevron-icon:hover{
+    background: var(--pacificBlue);
+}
+
+
+/* featured */
+.underline{
+    height: 5px;
+    width: 80%;
+    background: var(--greyWhite);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.featured-btns button:last-child{
+    background: white;
+    color: var(--blackRussian);
+    margin-left: 10px;
+}
+.featured-btns button:last-child:hover{
+    color: var(--pacificBlue);
+    border-color: var(--pacificBlue);
+}
+.featured-item > div{
+    padding: 24px;
+}
+.featured-item .item-price{
+    font-weight: 700;
+    font-size: 20px;
+}
+.featured-item{
+    margin-bottom: 36px;
+}
+.featured-item:nth-child(even){
+    background: var(--greyWhite);
+}
+.featured-item:last-child{
+    margin-bottom: 0;
+}
+
+/* blog */
+.blog-item{
+    background: var(--greyWhite);
+    margin: 30px 0;
+}
+.blog-item:last-of-type{
+    margin-bottom: 0;
+}
+.blog-item-img{
+    overflow: hidden;
+}
+.blog-item-img img{
+    transition: transform 0.4s ease-in-out;
+}
+.blog-item-img:hover img{
+    transform: scale(1.1);
+}
+.blog-item-content{
+    padding: 28px;
+}
+.blog-item-content a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    padding: 6px 0;
+    color: var(--blackRussian);
+}
+
+
+/* newsletter */
+.newsletter .container{
+    padding-top: 0;
+}
+.newsletter-content{
+    background: var(--blackRussian);
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.newsletter .title{
+    text-align: center;
+}
+.form-group{
+    margin: 30px 0;
+}
+.form-control, .subscribe-btn{
+    font-size: 18px;
+    padding: 7px 10px;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.form-control{
+    color: var(--blackRussian);
+    font-weight: 400;
+    padding: 16px 28px;
+    border-radius: 50px;
+    width: 100%;
+}
+.subscribe-btn{
+    background: var(--blackRussian);
+    color: #fff;
+    border: 1.5px solid var(--greyWhite);
+    display: block;
+    padding: 10px 28px;
+    margin: 22px auto;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.subscribe-btn:hover{
+    color: var(--pacificBlue);
+    border-color: var(--pacificBlue);
+}
+.circle-box{
+    border: 4px solid #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle-box.circle-1{
+    top: -150px;
+    left: -150px;
+}
+.circle-box.circle-2{
+    bottom: -150px;
+    right: -150px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    background: var(--blackRussian);
+}
+.footer .brand-name{
+    margin: 24px 0;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--blackRussian);
+}
+.footer a:hover{
+    opacity: 0.7;
+}
+.footer ul li{
+    list-style: none;
+    padding: 2px 0;
+}
+.footer a, .footer p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.footer h3{
+    text-transform: uppercase;
+    padding: 12px 0;
+    color: var(--greyWhite);
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons li{
+    margin: 10px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px){
+    .trend-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 32px;
+    }
+    .trend-item{
+        margin: 0;
+    }
+    .featured-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .featured-item:nth-child(even) .featured-item-img{
+        order: 2;
+    }
+    .blog-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 16px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        padding: 5rem 10rem;
+    }
+    .head-body-content{
+        flex: 1;
+        height: auto;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .head-body-img{
+        flex: 1;
+    }
+    .head-body-img img{
+        width: 100%;
+    }
+    .blog-grid{
+        grid-gap: 32px;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1200px){
+    .trend-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .featured-item{
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .head-top{
+        flex-direction: column;
+    }
+    .head-icon:first-child{
+        margin-left: 0;
+    }
+    .brand-name{
+        margin-bottom: 20px;
+    }
+    .head-body-content h1{
+        font-size: 30px;
+    }
+    .head-body-content p{
+        display: none;
+    }
+    .head-body.container{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .featured-btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-btns button{
+        width: 100%;
+        margin: 8px 0!important;
+    }
+    .form-control, .subscribe-btn{
+        font-size: 16px;
+    }
+    .form-control{
+        width: 255px;
+    }
+    .circle-box{
+        height: 150px;
+        width: 150px;
+    }
+    .circle-box.circle-1{
+        top: -75px;
+        left: -75px;
+    }
+    .circle-box.circle-2{
+        bottom: -75px;
+        right: -75px;
+    }
+}
